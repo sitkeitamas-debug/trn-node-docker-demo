@@ -23,7 +23,7 @@ app.use(express.static(path.join(path.dirname(new URL(import.meta.url).pathname)
 /* Kezdőlap */
 app.get('/', (req, res) => {
   const NodeVersion = process.versions;
-  res.render('index', { data: { nodeVersion: NodeVersion.node, title: 'Docker alkalmazás példa', host: hostname }, uzenetLista });
+  res.render('index', { data: { nodeVersion: NodeVersion.node, title: 'Azure Docker 2026', host: hostname }, uzenetLista });
 });
 
 /* Mentés */
