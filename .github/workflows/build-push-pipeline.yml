@@ -15,7 +15,7 @@ on:
       - demo
 
 env:
-  ACR_IMAGE_NAME: tanulo-acr323uv1mr02k0
+  ACR_IMAGE_NAME: tanulo-u40dpy
 
 jobs:
   docker:
